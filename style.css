@@ -1434,6 +1434,14 @@ La barre du millieu
   transform: perspective(800px);
 }
 
+.galerie div h1 {
+  margin: 0;
+}
+
+.galerie div p {
+  margin: 0;
+}
+
 .galerie .flip-card {
   background-color: transparent;
   width: 150px;
@@ -1481,10 +1489,16 @@ La barre du millieu
 .galerie article a {
   display: block;
   position: relative;
+  padding: 0;
+  list-style: n;
 }
 
 .galerie article a img {
   display: block;
   width: 150px;
+}
+
+.galerie main {
+  display: grid;
 }
 /*# sourceMappingURL=style.css.map */

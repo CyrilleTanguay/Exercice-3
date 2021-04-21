@@ -3,7 +3,14 @@
     flex-direction: row;
     flex-wrap: wrap;
     transform: perspective(800px);
-
+div{
+  h1{
+      margin: 0;
+  }
+  p{
+      margin: 0;
+  }
+}
 .flip-card {
     background-color: transparent;
     width: 150px;
@@ -50,11 +57,16 @@
             display: block;
             position: relative;
            // width: 150px;
-           // height: 150px;
+           //gi height: 150px;
+           padding:0;
+           list-style: n;
             img{
                 display: block;
                 width: 150px;
             }
         }
+    }
+    main{
+        display: grid;
     }
 }
