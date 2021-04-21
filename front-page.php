@@ -85,5 +85,5 @@ function convertirTableau(&$tPropriété)
 	$tPropriété['nbHeure'] = substr($tPropriété['titre'],-4,3);
 	$tPropriété['titrePartiel'] = substr($tPropriété['titre'],8,-6);
 	$tPropriété['session'] = substr($tPropriété['titre'], 4,1);
-	$tPropriété['typeCours'] = get_field('type_de_cours');
+	$tPropriété['typeCours'] = get_field('type_de_projet');
 }
