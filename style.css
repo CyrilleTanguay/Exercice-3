@@ -1481,8 +1481,6 @@ La barre du millieu
 .galerie article a {
   display: block;
   position: relative;
-  width: 150px;
-  height: 150px;
 }
 
 .galerie article a img {
